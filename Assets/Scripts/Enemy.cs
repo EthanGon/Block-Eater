@@ -42,7 +42,6 @@ public class Enemy : MonoBehaviour
     { 
         rb.AddForce(direction * this.speed);
         Destroy(this.gameObject, maxLifeTime);
-        
     }
 
 }
